@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-lazy="false">
+  <class name="DataAccess.DataAccess.Cliente, DataAccess" table="cliente">
+    <id name="Id" column="Id" type="Int32">
+      <generator class="identity" />
+    </id>
+    <property name="Nome" column="Nome" type="String" length="100" />
+    <property name="Sobrenome" column="Sobrenome" type="String" length="100" />
+    <property name="CpfCnpj" column="CpfCnpj" type="String" length="14" />
+    <property name="TelefoneResidencial" column="TelefoneResidencial" type="String" length="45" />
+    <property name="TelefoneComercial" column="TelefoneComercial" type="String" length="45" />
+    <property name="TelefoneCelular" column="TelefoneCelular" type="String" length="45" />
+    <property name="Email" column="Email" type="String" length="255" />
+    <property name="Observacoes" column="Observacoes" type="String" length="255" />
+  </class>
+</hibernate-mapping>

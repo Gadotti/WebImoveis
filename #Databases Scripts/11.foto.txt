@@ -1,0 +1,13 @@
+delimiter $$
+
+CREATE TABLE `foto` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `ImovelId` int(11) NOT NULL,
+  `Sequencia` int(11) DEFAULT NULL,
+  `NomeArquivo` varchar(100) NOT NULL,
+  `Descricao` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`Id`),
+  KEY `Imovel_Foto` (`ImovelId`),
+  CONSTRAINT `Imovel_Foto` FOREIGN KEY (`ImovelId`) REFERENCES `imovel` (`Id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=80 DEFAULT CHARSET=latin1$$
+

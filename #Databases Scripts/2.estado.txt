@@ -1,0 +1,9 @@
+delimiter $$
+
+CREATE TABLE `estado` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `Descricao` varchar(100) NOT NULL,
+  `Sigla` varchar(2) DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1$$
+

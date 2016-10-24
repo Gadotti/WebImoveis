@@ -1,0 +1,11 @@
+delimiter $$
+
+CREATE TABLE `parametros` (
+  `Id` int(11) NOT NULL,
+  `Email` varchar(45) DEFAULT NULL,
+  `EmailSenha` varchar(45) DEFAULT NULL,
+  `SmtpHost` varchar(45) DEFAULT NULL,
+  `SmtpPorta` int(11) DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1$$
+

@@ -1,0 +1,128 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Admin.master.vb" Inherits="WebImoveis.Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<%--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">--%>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Gadotti Corretor</title>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="../Styles/admin.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/themes/redmond/jquery-ui-1.8.12.custom.css" rel="stylesheet"
+        type="text/css" />
+    <script language="javascript" type="text/javascript">
+        //Atribui um MaxLength para os campos MultiLine
+        function MaxLengthMultiLine(obj, limit) {
+            if (obj.value.length >= limit) {
+                event.keyCode = 0;
+            }
+        }
+
+        //Objetivo: Marcar todos os checkbox..
+        function SelecionaTodos(p_SelecionaTodos, p_Seleciona) {
+            var wrkForm = p_SelecionaTodos.form;
+            var wrkCtAuxl = 0;
+
+            for (var wrkCtAuxl = 0; wrkCtAuxl < wrkForm.length; wrkCtAuxl++) {
+                if (wrkForm[wrkCtAuxl].name != null) {
+                    if (wrkForm[wrkCtAuxl].name.indexOf(p_Seleciona) > -1) {
+                        var wrkSeleciona = wrkForm[wrkCtAuxl];
+                        wrkSeleciona.checked = p_SelecionaTodos.checked;
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <form id="Form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <div id="wrapper">
+            <div id="header">
+                <%--<h1>
+                <a href="http://www.gadottiimoveis.com/">Gadotti</a></h1>
+            <h2>
+                <a href="http://www.gadottiimoveis.com/">Corretor de imóveis</a></h2>--%>
+            </div>
+            <div id="pages">
+                <h2>Pages</h2>
+                <img runat="server" id="pagesimg" src="~/Images/img2.jpg" alt="img" />
+                <%-- 
+            <ul>
+                <li class="active"><a id="page1" href="../Default.aspx">Home</a></li>
+                <li><a id="page5" href="Login.aspx">Sair</a></li>
+            </ul>
+                --%>
+            </div>
+            <div id="content">
+                <asp:UpdateProgress ID="UpdateProgress1" runat="server">
+                    <ProgressTemplate>
+                        <div id="overlay">
+                            <div id="divAguarde" class="ui-widget-content ui-corner-all" style="width: 240px; padding: 0.4em; position: fixed; left: 50%; top: 50%; margin-left: -170px; margin-top: -100px;">
+                                <h3 class="ui-widget-header ui-corner-all" style="margin-top: 0px;">Carregando</h3>
+                                <p style="text-align: center">
+                                    <img src="../Images/loading.gif" alt="Carregando" />
+                                    Aguarde...
+                                </p>
+                            </div>
+                        </div>
+                    </ProgressTemplate>
+                </asp:UpdateProgress>
+
+                <div>
+
+                    <div style="float: left; width: 200px">
+                        <div id="search" class="boxed">
+                            <h2 class="heading">Cadastros</h2>
+                            <div class="content">
+                                <ul>
+                                    <li class="first"><a href="CadastroImovel.aspx">Novo Imóvel</a></li>
+                                    <li><a href="EdicaoImovel.aspx">Editar/Consultar Imóvel</a></li>
+                                    <li><a href="CadastroCliente.aspx">Clientes</a></li>
+                                    <li><a href="CadastroEstado.aspx">Estados</a></li>
+                                    <li><a href="CadastroCidade.aspx">Cidades</a></li>
+                                    <li><a href="CadastroBairro.aspx">Bairros</a></li>
+                                    <!--<li><a href="CadastroTipoImovel.aspx">Tipo Imóvel</a></li>-->
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="archives" class="boxed">
+                            <h2 class="heading">Gerenciamento</h2>
+                            <div class="content">
+                                <ul>
+                                    <li class="first"><a href="Default.aspx">Estatísticas</a></li>
+                                    <li><a href="Fechamentos.aspx">Vendas por Período</a></li>
+                                    <li><a href="CadastroUsuario.aspx">Usuários</a></li>
+                                    <li><a href="Configuracao.aspx">Configurações Sistema</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div style="margin-left: 220px">
+                    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                        <ContentTemplate>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </ContentTemplate>
+                        <Triggers>
+                        </Triggers>
+                    </asp:UpdatePanel>
+
+                </div>
+
+            </div>
+            <div id="footer">
+                <p>
+                    Copyright &copy; 2011 WebImóveis. Designed by <a href="mailto:gadotti.eduardo@gmail.com.br">
+                        <strong>Eduardo Gadotti</strong></a>
+                </p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

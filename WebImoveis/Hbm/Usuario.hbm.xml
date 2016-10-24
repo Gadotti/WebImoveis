@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-lazy="false">
+  <class name="DataAccess.DataAccess.Usuario, DataAccess" table="usuario">
+    <id name="Id" column="Id" type="Int32">
+      <generator class="identity" />
+    </id>
+    <property name="Login" column="Login" type="String" length="45" />
+    <property name="Senha" column="Senha" type="String" length="45" />
+    <property name="Nome" column="Nome" type="String" length="45" />
+    <property name="Email" column="Email" type="String" length="100" />
+    <property name="DataCadastro" column="DataCadastro" type="DateTime" />
+  </class>
+</hibernate-mapping>

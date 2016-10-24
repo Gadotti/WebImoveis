@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-lazy="false">
+  <class name="DataAccess.DataAccess.Imovel, DataAccess" table="imovel">
+    <id name="Id" column="Id" type="Int32">
+      <generator class="identity" />
+    </id>
+    <property name="Referencia" column="Referencia" type="String" length="45" />
+    <property name="DataInclusao" column="DataInclusao" type="DateTime" />
+    <property name="DataAlteracao" column="DataAlteracao" type="DateTime" />
+    <property name="Valor" column="Valor" type="Int64" length="11" />
+    <property name="ValorCondominio" column="ValorCondominio" type="Int32" length="11" />
+    <property name="EstadoId" column="EstadoId" type="Int32" length="11" />
+    <property name="CidadeId" column="CidadeId" type="Int32" length="11" />
+    <property name="BairroId" column="BairroId" type="Int32" length="11" />
+    <property name="Endereco" column="Endereco" type="String" length="45" />
+    <property name="TipoImovel" column="TipoImovel" type="Int32" length="11" />
+    <property name="TipoMaterial" column="TipoMaterial" type="Int32" length="11" />
+    <property name="TipoNegocio" column="TipoNegocio" type="Int32" length="11" />
+    <property name="AreaConstruida" column="AreaContruida" type="Int32" length="11" />
+    <property name="AreaTerreno" column="AreaTerreno" type="Int32" length="11" />
+    <property name="QtdeDormitorio" column="QtdeDormitorio" type="Int32" length="11" />
+    <property name="QtdeSuite" column="QtdeSuite" type="Int32" length="11" />
+    <property name="QtdeBanheiro" column="QtdeBanheiro" type="Int32" length="11" />
+    <property name="QtdeSala" column="QtdeSala" type="Int32" length="11" />
+    <property name="QtdeGaragem" column="QtdeGaragem" type="Int32" length="11" />
+    <property name="InCozinha" column="InCozinha" type="Boolean" length="1" />
+    <property name="InCopa" column="InCopa" type="Boolean" length="1" />
+    <property name="InPiscina" column="InPiscina" type="Boolean" length="1" />
+    <property name="InAreaServico" column="InAreaServico" type="Boolean" length="1" />
+    <property name="InDependenciaEmpregada" column="InDependenciaEmpregada" type="Boolean" length="1" />
+    <property name="InChurrasqueira" column="InChurrasqueira" type="Boolean" length="1" />
+    <property name="InCloset" column="InCloset" type="Boolean" length="1" />
+    <property name="InAdega" column="InAdega" type="Boolean" length="1" />
+    <property name="InAreaFesta" column="InAreaFesta" type="Boolean" length="1" />
+    <property name="InAreaJogos" column="InAreaJogos" type="Boolean" length="1" />
+    <property name="InLareira" column="InLareira" type="Boolean" length="1" />
+    <property name="InSacada" column="InSacada" type="Boolean" length="1" />
+    <property name="InEscritorio" column="InEscritorio" type="Boolean" length="1" />
+    <property name="InGasCentral" column="InGasCentral" type="Boolean" length="1" />
+    <property name="InPortaoEletronico" column="InPortaoEletronico" type="Boolean" length="1" />
+    <property name="InMobiliado" column="InMobiliado" type="Boolean" length="1" />
+    <property name="InLancamento" column="InLancamento" type="Boolean" length="1" />
+    <property name="InCobertura" column="InCobertura" type="Boolean" length="1" />
+    <property name="InPronto" column="InPronto" type="Boolean" length="1" />
+    <property name="Descricao" column="Descricao" type="String" length="500" />
+    <property name="CondicaoVenda" column="CondicaoVenda" type="String" length="255" />
+    <property name="Destaque" column="Destaque" type="Boolean" length="1" />
+    <property name="InPorteiroEletronico" column="InPorteiroEletronico" type="Boolean" length="1" />
+    <property name="InLavabo" column="InLavabo" type="Boolean" length="1" />
+    <property name="InTerraco" column="InTerraco" type="Boolean" length="1" />
+    <property name="DataFechamento" column="DataFechamento" type="DateTime" />
+    <property name="InPublicar" column="InPublicar" type="Boolean" length="1" />
+    <property name="UsuarioId" column="UsuarioId" type="Int32" length="11" />
+    <property name="QtdeVisitas" column="QtdeVisitas" type="Int32" length="11" />    
+  </class>
+</hibernate-mapping>

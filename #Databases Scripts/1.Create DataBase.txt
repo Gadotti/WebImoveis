@@ -1,0 +1,4 @@
+delimiter $$
+
+CREATE DATABASE `dbgadotti` /*!40100 DEFAULT CHARACTER SET latin1 */$$
+

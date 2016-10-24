@@ -1,0 +1,1 @@
+ALTER TABLE `dbgadotti`.`imovel` CHANGE COLUMN `Valor` `Valor` BIGINT NULL DEFAULT NULL  ;

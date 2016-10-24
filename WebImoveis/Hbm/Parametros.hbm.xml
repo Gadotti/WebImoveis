@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-lazy="false">
+  <class name="DataAccess.DataAccess.Parametros, DataAccess" table="parametros">
+    <id name="Id" column="Id" type="Int32">
+      <generator class="assigned" />
+    </id>
+    <property name="Email" column="Email" type="String" length="45" />
+    <property name="EmailSenha" column="EmailSenha" type="String" length="45" />
+    <property name="SmtpHost" column="SmtpHost" type="String" length="45" />
+    <property name="SmtpPorta" column="SmtpPorta" type="Int32" />
+    <property name="Titulo" column="Titulo" type="String" length="45" />
+    <property name="Contato" column="Contato" type="String" length="500" />
+  </class>
+</hibernate-mapping>

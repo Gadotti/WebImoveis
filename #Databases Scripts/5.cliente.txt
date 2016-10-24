@@ -1,0 +1,15 @@
+delimiter $$
+
+CREATE TABLE `cliente` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `Nome` varchar(100) DEFAULT NULL,
+  `Sobrenome` varchar(100) DEFAULT NULL,
+  `CpfCnpj` varchar(14) DEFAULT NULL,
+  `TelefoneResidencial` varchar(45) DEFAULT NULL,
+  `TelefoneComercial` varchar(45) DEFAULT NULL,
+  `TelefoneCelular` varchar(45) DEFAULT NULL,
+  `Email` varchar(255) DEFAULT NULL,
+  `Observacoes` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1$$
+

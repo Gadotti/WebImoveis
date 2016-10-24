@@ -1,0 +1,12 @@
+delimiter $$
+
+CREATE TABLE `cidade` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `EstadoId` int(11) NOT NULL,
+  `Descricao` varchar(45) NOT NULL,
+  PRIMARY KEY (`Id`),
+  KEY `Cidades_EstadoId` (`EstadoId`),
+  KEY `Cidade_EstadoId` (`EstadoId`),
+  CONSTRAINT `Cidade_EstadoId` FOREIGN KEY (`EstadoId`) REFERENCES `estado` (`Id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1$$
+

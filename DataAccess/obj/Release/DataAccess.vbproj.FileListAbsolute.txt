@@ -1,0 +1,16 @@
+E:\Sistemas\WebImoveis\DataAccess\bin\Release\DataAccess.dll
+E:\Sistemas\WebImoveis\DataAccess\bin\Release\DataAccess.pdb
+E:\Sistemas\WebImoveis\DataAccess\bin\Release\DataAccess.xml
+E:\Sistemas\WebImoveis\DataAccess\bin\Release\Castle.Core.dll
+E:\Sistemas\WebImoveis\DataAccess\bin\Release\Iesi.Collections.dll
+E:\Sistemas\WebImoveis\DataAccess\bin\Release\NHibernate.ByteCode.Castle.dll
+E:\Sistemas\WebImoveis\DataAccess\bin\Release\NHibernate.dll
+E:\Sistemas\WebImoveis\DataAccess\bin\Release\Castle.Core.xml
+E:\Sistemas\WebImoveis\DataAccess\bin\Release\Iesi.Collections.pdb
+E:\Sistemas\WebImoveis\DataAccess\bin\Release\NHibernate.ByteCode.Castle.xml
+E:\Sistemas\WebImoveis\DataAccess\obj\Release\DataAccess.vbprojResolveAssemblyReference.cache
+E:\Sistemas\WebImoveis\DataAccess\obj\Release\DataAccess.Resources.resources
+E:\Sistemas\WebImoveis\DataAccess\obj\Release\DataAccess.vbproj.GenerateResource.Cache
+E:\Sistemas\WebImoveis\DataAccess\obj\Release\DataAccess.dll
+E:\Sistemas\WebImoveis\DataAccess\obj\Release\DataAccess.xml
+E:\Sistemas\WebImoveis\DataAccess\obj\Release\DataAccess.pdb

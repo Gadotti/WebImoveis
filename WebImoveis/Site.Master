@@ -1,0 +1,170 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="WebImoveis.Site" %>
+
+<%@ Register Assembly="Utilitarios" Namespace="Utilitarios.WebComponents" TagPrefix="cc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Gadotti Corretor</title>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="Styles/admin.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/themes/redmond/jquery-ui-1.8.12.custom.css" rel="stylesheet"
+        type="text/css" />
+</head>
+<body class="bk">
+
+    <form id="Form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <div id="wrapper">
+            <div>
+                <div id="header">
+                </div>
+                <div id="pages">
+                    <h2>Pages</h2>
+                   <img runat="server" id="pagesimg" src="~/Images/img2.jpg" alt="img" />
+                    <%--
+                    <ul style="float:right">
+                        <li class="active"><a id="page1" href="Default.aspx">Início</a></li>
+                        <li><a id="page5" href="Admin/Login.aspx">Restrito</a></li>
+                    </ul>
+                         --%>
+                </div>
+            </div>
+            <div id="content">
+                <asp:UpdateProgress ID="UpdateProgress1" runat="server">
+                    <ProgressTemplate>
+                        <div id="overlay">
+                            <div id="divAguarde" class="ui-widget-content ui-corner-all" style="width: 240px; padding: 0.4em; position: fixed; left: 50%; top: 50%; margin-left: -170px; margin-top: -100px;">
+                                <h3 class="ui-widget-header ui-corner-all" style="margin-top: 0px;">Carregando</h3>
+                                <p style="text-align: center">
+                                    <img src="../Images/loading.gif" alt="Carregando" />
+                                    Aguarde...
+                                </p>
+                            </div>
+                        </div>
+                    </ProgressTemplate>
+                </asp:UpdateProgress>
+
+                <div>
+
+                    <div style="float: left; width: 200px">
+
+                        <div id="buscarapida" class="boxed">
+                            <h2 class="heading">Busca Rádipa</h2>
+                            <div class="content">
+                                <table>
+                                    <tr>
+                                        <td colspan="2">Referência:
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <asp:TextBox runat="server" ID="txtReferencia"></asp:TextBox>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">Tipo Imóvel:
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <asp:DropDownList runat="server" ID="ddlTipoImovel" Width="160px"></asp:DropDownList>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Valor de:
+                                        </td>
+                                        <td>Valor Até
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <cc1:CampoNumerico ID="txtValorDe" runat="server" TipoCampoNumerico="Valor" Width="80px" />
+                                        </td>
+                                        <td>
+                                            <cc1:CampoNumerico ID="txtValorAte" runat="server" TipoCampoNumerico="Valor" Width="80px" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">Cidade:
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <asp:DropDownList runat="server" ID="ddlCidade" Width="160px"></asp:DropDownList>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" align="right">
+                                            <ul>
+                                                <li class="first"><a href="Consulta.aspx">Mais Filtros</a></li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <asp:Button runat="server" ID="btnBuscar" Text="Buscar" CssClass="ui-button ui-widget ui-state-default ui-corner-all"
+                                                onmouseover="this.className='ui-button ui-widget ui-state-default ui-corner-all ui-state-hover'"
+                                                onmouseout="this.className='ui-button ui-widget ui-state-default ui-corner-all'" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="consultas" class="boxed">
+                            <h2 class="heading">Pesquisas</h2>
+                            <div class="content">
+                                <ul>
+                                    <li class="first"><a href="Default.aspx">Destaques</a></li>
+                                    <li><a href="Consulta.aspx">Consultar Imóveis</a></li>
+                                    <li><a href="Consulta.aspx?estadoId=1&tipoImovel=1">Apartamentos</a></li>
+                                    <li><a href="Consulta.aspx?estadoId=1&tipoImovel=2">Casas</a></li>
+                                    <li><a href="Consulta.aspx?estadoId=1&tipoImovel=6">Fazendas</a></li>
+                                    <li><a href="Consulta.aspx?estadoId=1&tipoImovel=8">Salas Comerciais</a></li>
+                                    <li><a href="Consulta.aspx?estadoId=1&tipoImovel=5">Prédios Comerciais</a></li>
+                                    <li><a href="Consulta.aspx?estadoId=1&tipoImovel=4">Sítios</a></li>
+                                    <li><a href="Consulta.aspx?estadoId=1&tipoImovel=3">Terrenos</a></li>
+                                    <li><a href="Consulta.aspx?lancamento=true">Lançamentos</a></li>
+                                    <li><a href="MeusImoveis.aspx">Meus Imóveis</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="archives" class="boxed">
+                            <h2 class="heading">Gadotti Corretor</h2>
+                            <div class="content">
+                                <ul>
+                                    <li class="first"><a href="Sobre.aspx">Sobre</a></li>
+                                    <li><a href="Contato.aspx">Contato</a></li>
+                                    <li><a href="Admin/Login.aspx">Restrito</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-left: 210px">
+                        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                            <ContentTemplate>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </ContentTemplate>
+                            <Triggers>
+                            </Triggers>
+                        </asp:UpdatePanel>
+                    </div>
+                </div>
+
+            </div>
+            <div id="footer">
+                <p>
+                    Copyright &copy; 2011 WebImóveis. Designed by <a href="mailto:gadotti.eduardo@gmail.com.br">
+                        <strong>Eduardo Gadotti</strong></a>
+                </p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

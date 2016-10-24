@@ -1,0 +1,21 @@
+delimiter $$
+
+CREATE TABLE `solicitante` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `Email` varchar(100) DEFAULT NULL,
+  `Nome` varchar(45) DEFAULT NULL,
+  `Senha` varchar(45) DEFAULT NULL,
+  `EstadoId` int(11) DEFAULT NULL,
+  `CidadeId` int(11) DEFAULT NULL,
+  `Bairros` varchar(100) DEFAULT NULL,
+  `TipoImovelId` int(11) DEFAULT NULL,
+  `ValorDe` int(11) DEFAULT NULL,
+  `ValorAte` int(11) DEFAULT NULL,
+  `QtdeDormitorioMin` int(11) DEFAULT NULL,
+  `QtdeSuiteMin` int(11) DEFAULT NULL,
+  `AreaConstruidaMin` int(11) DEFAULT NULL,
+  `AreaTerrenoMin` int(11) DEFAULT NULL,
+  `DevePossuir` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1$$
+

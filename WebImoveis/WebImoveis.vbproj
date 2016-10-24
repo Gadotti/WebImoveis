@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{993DDB06-0726-455A-BE7B-C4EBFE45EFFB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WebImoveis</RootNamespace>
+    <AssemblyName>WebImoveis</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebImoveis.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebImoveis.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.50401.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bibliotecas\AjaxControlToolkit.Binary.NET4\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\..\Bibliotecas\fluentnhibernate-NH3.1-1.2\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core, Version=2.5.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Castle.Core.2.5.2\lib\NET35\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.DynamicProxy2, Version=2.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bibliotecas\NHibernate.Spatial-2.1.2.GA-bin\Core\Castle.DynamicProxy2.dll</HintPath>
+    </Reference>
+    <Reference Include="Elmah, Version=1.2.14706.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\elmah.corelibrary.1.2.2\lib\Elmah.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Iesi.Collections.3.1.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bibliotecas\NHibernate.Spatial-2.1.2.GA-bin\Core\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="mysql.data, Version=6.7.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\##WebImoveis_publish\bin\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NHibernate.3.1.0.4000\lib\Net35\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.Castle">
+      <HintPath>..\packages\NHibernate.Castle.3.1.0.4000\lib\Net35\NHibernate.ByteCode.Castle.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Spatial.MySQL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bibliotecas\NHibernate.Spatial-2.1.2.GA-bin\MySQL\NHibernate.Spatial.MySQL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.87.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Data.SQLite.1.0.87.0\lib\net40\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq">
+      <HintPath>..\packages\System.Data.SQLite.1.0.87.0\lib\net40\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Readme\Elmah.txt" />
+    <Content Include="Images\fundo.png" />
+    <Content Include="light-blue-design.jpg" />
+    <Content Include="x64\SQLite.Interop.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\SQLite.Interop.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Hbm\Cidade.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hbm\Imovel.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Admin\CadastroBairro.aspx" />
+    <Content Include="Admin\CadastroCidade.aspx" />
+    <Content Include="Admin\CadastroCliente.aspx" />
+    <Content Include="Admin\CadastroEstado.aspx" />
+    <Content Include="Admin\CadastroUsuario.aspx" />
+    <Content Include="Admin\Configuracao.aspx" />
+    <Content Include="Admin\Default.aspx" />
+    <Content Include="Admin\CadastroImovel.aspx" />
+    <EmbeddedResource Include="Hbm\Estado.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hbm\Bairro.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hbm\TipoNegocio.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hbm\TipoImovel.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hbm\TipoMaterial.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hbm\Foto.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Admin\EdicaoImovel.aspx" />
+    <EmbeddedResource Include="Hbm\Usuario.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Admin\Fechamentos.aspx" />
+    <Content Include="Admin\Login.aspx" />
+    <Content Include="Admin\CadastroTipoImovel.aspx" />
+    <Content Include="Consulta.aspx" />
+    <Content Include="Contato.aspx" />
+    <Content Include="Default.aspx" />
+    <EmbeddedResource Include="Hbm\Cliente.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hbm\Estatistica.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hbm\Parametros.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hbm\TipoImovelEQV.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Images\blank.gif" />
+    <Content Include="Images\close.gif" />
+    <Content Include="Images\closelabel.gif" />
+    <Content Include="Images\edit.png" />
+    <Content Include="Images\fond_rentp1.gif" />
+    <Content Include="Images\fond_rentp2.gif" />
+    <Content Include="Images\icon_destaques.png" />
+    <Content Include="Images\icon_view.png" />
+    <Content Include="Images\img1.jpg" />
+    <Content Include="Images\img2.jpg" />
+    <Content Include="Images\img3.gif" />
+    <Content Include="Images\img4.gif" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\next.gif" />
+    <Content Include="Images\nextlabel.gif" />
+    <Content Include="Images\prev.gif" />
+    <Content Include="Images\prevlabel.gif" />
+    <Content Include="Images\rent_bt.png" />
+    <Content Include="Images\spacer.gif" />
+    <Content Include="MeusImoveis.aspx" />
+    <Content Include="Scripts\effects.js" />
+    <Content Include="Scripts\funcoes.js" />
+    <Content Include="Scripts\jquery\external\jquery.bgiframe-2.1.2.js" />
+    <Content Include="Scripts\jquery\external\jquery.cookie.js" />
+    <Content Include="Scripts\jquery\external\jquery.metadata.js" />
+    <Content Include="Scripts\jquery\external\qunit.js" />
+    <Content Include="Scripts\jquery\jquery-1.5.1.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery-ui-i18n.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-af.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-ar-DZ.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-ar.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-az.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-bg.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-bs.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-ca.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-cs.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-da.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-de.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-el.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-en-AU.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-en-GB.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-en-NZ.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-eo.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-es.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-et.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-eu.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-fa.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-fi.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-fo.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-fr-CH.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-fr.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-gl.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-he.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-hr.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-hu.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-hy.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-id.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-is.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-it.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-ja.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-ko.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-kz.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-lt.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-lv.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-ml.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-ms.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-nl.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-no.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-pl.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-pt-BR.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-pt.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-rm.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-ro.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-ru.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-sk.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-sl.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-sq.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-sr-SR.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-sr.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-sv.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-ta.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-th.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-tj.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-tr.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-uk.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-vi.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-zh-CN.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-zh-HK.js" />
+    <Content Include="Scripts\jquery\ui\i18n\jquery.ui.datepicker-zh-TW.js" />
+    <Content Include="Scripts\jquery\ui\jquery-ui-1.8.12.custom.js" />
+    <Content Include="Scripts\jquery\ui\jquery.effects.blind.js" />
+    <Content Include="Scripts\jquery\ui\jquery.effects.bounce.js" />
+    <Content Include="Scripts\jquery\ui\jquery.effects.clip.js" />
+    <Content Include="Scripts\jquery\ui\jquery.effects.core.js" />
+    <Content Include="Scripts\jquery\ui\jquery.effects.drop.js" />
+    <Content Include="Scripts\jquery\ui\jquery.effects.explode.js" />
+    <Content Include="Scripts\jquery\ui\jquery.effects.fade.js" />
+    <Content Include="Scripts\jquery\ui\jquery.effects.fold.js" />
+    <Content Include="Scripts\jquery\ui\jquery.effects.highlight.js" />
+    <Content Include="Scripts\jquery\ui\jquery.effects.pulsate.js" />
+    <Content Include="Scripts\jquery\ui\jquery.effects.scale.js" />
+    <Content Include="Scripts\jquery\ui\jquery.effects.shake.js" />
+    <Content Include="Scripts\jquery\ui\jquery.effects.slide.js" />
+    <Content Include="Scripts\jquery\ui\jquery.effects.transfer.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.accordion.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.autocomplete.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.button.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.core.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.datepicker.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.dialog.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.draggable.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.droppable.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.mouse.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.position.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.progressbar.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.resizable.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.selectable.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.slider.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.sortable.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.tabs.js" />
+    <Content Include="Scripts\jquery\ui\jquery.ui.widget.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.effects.blind.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.effects.bounce.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.effects.clip.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.effects.core.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.effects.drop.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.effects.explode.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.effects.fade.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.effects.fold.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.effects.highlight.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.effects.pulsate.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.effects.scale.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.effects.shake.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.effects.slide.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.effects.transfer.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.accordion.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.autocomplete.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.button.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.core.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.datepicker.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.dialog.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.draggable.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.droppable.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.mouse.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.position.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.progressbar.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.resizable.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.selectable.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.slider.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.sortable.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.tabs.min.js" />
+    <Content Include="Scripts\jquery\ui\minified\jquery.ui.widget.min.js" />
+    <Content Include="Scripts\lightbox.js" />
+    <Content Include="Scripts\prototype.js" />
+    <Content Include="Scripts\scriptaculous.js" />
+    <Content Include="Sobre.aspx" />
+    <Content Include="Styles\admin.css" />
+    <Content Include="Styles\demos.css" />
+    <Content Include="Styles\lightbox.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Styles\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Styles\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Styles\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Styles\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Styles\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Styles\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Styles\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Styles\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Styles\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Styles\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Styles\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Styles\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Styles\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Styles\themes\base\jquery.ui.all.css" />
+    <Content Include="Styles\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Styles\themes\base\jquery.ui.base.css" />
+    <Content Include="Styles\themes\base\jquery.ui.button.css" />
+    <Content Include="Styles\themes\base\jquery.ui.core.css" />
+    <Content Include="Styles\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Styles\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Styles\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Styles\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Styles\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Styles\themes\base\jquery.ui.slider.css" />
+    <Content Include="Styles\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Styles\themes\base\jquery.ui.theme.css" />
+    <Content Include="Styles\themes\redmond\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Styles\themes\redmond\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="Styles\themes\redmond\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="Styles\themes\redmond\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="Styles\themes\redmond\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Styles\themes\redmond\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Styles\themes\redmond\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="Styles\themes\redmond\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Styles\themes\redmond\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="Styles\themes\redmond\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Styles\themes\redmond\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="Styles\themes\redmond\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="Styles\themes\redmond\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Styles\themes\redmond\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Styles\themes\redmond\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="Styles\themes\redmond\jquery-ui-1.8.12.custom.css" />
+    <Content Include="Styles\themes\redmond\jquery.ui.accordion.css" />
+    <Content Include="Styles\themes\redmond\jquery.ui.all.css" />
+    <Content Include="Styles\themes\redmond\jquery.ui.autocomplete.css" />
+    <Content Include="Styles\themes\redmond\jquery.ui.base.css" />
+    <Content Include="Styles\themes\redmond\jquery.ui.button.css" />
+    <Content Include="Styles\themes\redmond\jquery.ui.core.css" />
+    <Content Include="Styles\themes\redmond\jquery.ui.datepicker.css" />
+    <Content Include="Styles\themes\redmond\jquery.ui.dialog.css" />
+    <Content Include="Styles\themes\redmond\jquery.ui.progressbar.css" />
+    <Content Include="Styles\themes\redmond\jquery.ui.resizable.css" />
+    <Content Include="Styles\themes\redmond\jquery.ui.selectable.css" />
+    <Content Include="Styles\themes\redmond\jquery.ui.slider.css" />
+    <Content Include="Styles\themes\redmond\jquery.ui.tabs.css" />
+    <Content Include="Styles\themes\redmond\jquery.ui.theme.css" />
+    <Content Include="VisualizarImovel.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Admin.Master.designer.vb">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.vb">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CadastroBairro.aspx.designer.vb">
+      <DependentUpon>CadastroBairro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CadastroBairro.aspx.vb">
+      <DependentUpon>CadastroBairro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CadastroCidade.aspx.designer.vb">
+      <DependentUpon>CadastroCidade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CadastroCidade.aspx.vb">
+      <DependentUpon>CadastroCidade.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CadastroCliente.aspx.designer.vb">
+      <DependentUpon>CadastroCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CadastroCliente.aspx.vb">
+      <DependentUpon>CadastroCliente.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CadastroEstado.aspx.designer.vb">
+      <DependentUpon>CadastroEstado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CadastroEstado.aspx.vb">
+      <DependentUpon>CadastroEstado.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CadastroUsuario.aspx.designer.vb">
+      <DependentUpon>CadastroUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CadastroUsuario.aspx.vb">
+      <DependentUpon>CadastroUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Configuracao.aspx.designer.vb">
+      <DependentUpon>Configuracao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Configuracao.aspx.vb">
+      <DependentUpon>Configuracao.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CadastroImovel.aspx.designer.vb">
+      <DependentUpon>CadastroImovel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CadastroImovel.aspx.vb">
+      <DependentUpon>CadastroImovel.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EdicaoImovel.aspx.designer.vb">
+      <DependentUpon>EdicaoImovel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EdicaoImovel.aspx.vb">
+      <DependentUpon>EdicaoImovel.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ExportarImovel.ashx.vb">
+      <DependentUpon>ExportarImovel.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fechamentos.aspx.designer.vb">
+      <DependentUpon>Fechamentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Fechamentos.aspx.vb">
+      <DependentUpon>Fechamentos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CadastroTipoImovel.aspx.designer.vb">
+      <DependentUpon>CadastroTipoImovel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CadastroTipoImovel.aspx.vb">
+      <DependentUpon>CadastroTipoImovel.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Consulta.aspx.designer.vb">
+      <DependentUpon>Consulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta.aspx.vb">
+      <DependentUpon>Consulta.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Contato.aspx.designer.vb">
+      <DependentUpon>Contato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contato.aspx.vb">
+      <DependentUpon>Contato.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HandlerImage.ashx.vb">
+      <DependentUpon>HandlerImage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="HandlerImage.vb" />
+    <Compile Include="MeusImoveis.aspx.designer.vb">
+      <DependentUpon>MeusImoveis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MeusImoveis.aspx.vb">
+      <DependentUpon>MeusImoveis.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sobre.aspx.designer.vb">
+      <DependentUpon>Sobre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sobre.aspx.vb">
+      <DependentUpon>Sobre.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="VisualizarImovel.aspx.designer.vb">
+      <DependentUpon>VisualizarImovel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizarImovel.aspx.vb">
+      <DependentUpon>VisualizarImovel.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Admin.Master" />
+    <Content Include="App_Themes\TemaPrincipal\Default.skin" />
+    <Content Include="HandlerImage.ashx" />
+    <Content Include="Admin\ExportarImovel.ashx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Fotos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.vbproj">
+      <Project>{0480569E-B5CF-47E7-A87F-B5A3F7D4F36D}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess\DataAccess.vbproj">
+      <Project>{29AFE551-6801-4F1B-AE23-BF2604D29CFA}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilitarios\Utilitarios.vbproj">
+      <Project>{1F821F65-F8F9-4273-A1E7-301E18F7BB19}</Project>
+      <Name>Utilitarios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1836</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

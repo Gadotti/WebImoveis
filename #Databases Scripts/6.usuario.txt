@@ -1,0 +1,12 @@
+delimiter $$
+
+CREATE TABLE `usuario` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `Login` varchar(45) NOT NULL,
+  `Senha` varchar(45) DEFAULT NULL,
+  `Nome` varchar(45) NOT NULL,
+  `Email` varchar(100) DEFAULT NULL,
+  `DataCadastro` datetime DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1$$
+

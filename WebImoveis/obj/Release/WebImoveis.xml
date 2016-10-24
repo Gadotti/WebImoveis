@@ -1,0 +1,2522 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WebImoveis
+</name>
+</assembly>
+<members>
+<member name="F:WebImoveis.Consulta.txtReferencia">
+	<summary>
+txtReferencia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.ddlEstado">
+	<summary>
+ddlEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.ddlCidade">
+	<summary>
+ddlCidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.pnlBairro">
+	<summary>
+pnlBairro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.ddlBairro">
+	<summary>
+ddlBairro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.ddlTipoImovel">
+	<summary>
+ddlTipoImovel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.ddlTipoMaterial">
+	<summary>
+ddlTipoMaterial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.txtValorDe">
+	<summary>
+txtValorDe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.txtValorAte">
+	<summary>
+txtValorAte control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.btnAbrirBuscaAvancada">
+	<summary>
+btnAbrirBuscaAvancada control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.divBuscaAvancada">
+	<summary>
+divBuscaAvancada control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.cblBairros">
+	<summary>
+cblBairros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.txtQtdeDomitorio">
+	<summary>
+txtQtdeDomitorio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.txtQtdeSuite">
+	<summary>
+txtQtdeSuite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.txtAreaConstruideDe">
+	<summary>
+txtAreaConstruideDe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.txtAreaConstruideAte">
+	<summary>
+txtAreaConstruideAte control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.cblItensImovel">
+	<summary>
+cblItensImovel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.btnAbrirBuscaBasica">
+	<summary>
+btnAbrirBuscaBasica control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.divTotalRegistro">
+	<summary>
+divTotalRegistro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.lblTotalRegistro">
+	<summary>
+lblTotalRegistro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Consulta.dtgImovel">
+	<summary>
+dtgImovel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebImoveis.Consulta.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:WebImoveis.Contato.ltrContato">
+	<summary>
+ltrContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Contato.txtNome">
+	<summary>
+txtNome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Contato.rfvNome">
+	<summary>
+rfvNome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Contato.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Contato.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Contato.RegularExpressionValidator1">
+	<summary>
+RegularExpressionValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Contato.txtContato">
+	<summary>
+txtContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Contato.RequiredFieldValidator2">
+	<summary>
+RequiredFieldValidator2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Contato.txtAssunto">
+	<summary>
+txtAssunto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Contato.RequiredFieldValidator3">
+	<summary>
+RequiredFieldValidator3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Contato.txtMensagem">
+	<summary>
+txtMensagem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Contato.RequiredFieldValidator4">
+	<summary>
+RequiredFieldValidator4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Contato.btnEnviar">
+	<summary>
+btnEnviar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Contato.btnLimpar">
+	<summary>
+btnLimpar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebImoveis.Contato.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:WebImoveis.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:WebImoveis.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:WebImoveis.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:WebImoveis.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:WebImoveis.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:WebImoveis.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:WebImoveis.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:WebImoveis.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WebImoveis.CadastroCidade.ddlEstadoConsulta">
+	<summary>
+ddlEstadoConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCidade.mtPrincipal">
+	<summary>
+mtPrincipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCidade.vwConsulta">
+	<summary>
+vwConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCidade.gvCidade">
+	<summary>
+gvCidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCidade.btnNovo">
+	<summary>
+btnNovo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCidade.vwEdicao">
+	<summary>
+vwEdicao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCidade.txtId">
+	<summary>
+txtId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCidade.ddlEstado">
+	<summary>
+ddlEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCidade.txtDescricao">
+	<summary>
+txtDescricao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCidade.rfvtxtDescricao">
+	<summary>
+rfvtxtDescricao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCidade.btnSalvar">
+	<summary>
+btnSalvar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCidade.btnExcluir">
+	<summary>
+btnExcluir control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCidade.btnCancelar">
+	<summary>
+btnCancelar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebImoveis.CadastroCidade.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:WebImoveis.EdicaoImovel.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.EdicaoImovel.txtImovelId">
+	<summary>
+txtImovelId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.EdicaoImovel.btnEditar">
+	<summary>
+btnEditar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.EdicaoImovel.txtReferencia">
+	<summary>
+txtReferencia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.EdicaoImovel.ddlEstado">
+	<summary>
+ddlEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.EdicaoImovel.ddlCidade">
+	<summary>
+ddlCidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.EdicaoImovel.ddlBairro">
+	<summary>
+ddlBairro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.EdicaoImovel.ddlTipoImovel">
+	<summary>
+ddlTipoImovel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.EdicaoImovel.ddlTipoMaterial">
+	<summary>
+ddlTipoMaterial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.EdicaoImovel.txtValor">
+	<summary>
+txtValor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.EdicaoImovel.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.EdicaoImovel.dtgImovel">
+	<summary>
+dtgImovel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebImoveis.EdicaoImovel.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:WebImoveis.Sobre.lblAno">
+	<summary>
+lblAno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Sobre.lblAno2">
+	<summary>
+lblAno2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroEstado.txtId">
+	<summary>
+txtId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroEstado.txtDescricao">
+	<summary>
+txtDescricao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroEstado.rfvtxtNome">
+	<summary>
+rfvtxtNome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroEstado.txtSigla">
+	<summary>
+txtSigla control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroEstado.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroEstado.btnSalvar">
+	<summary>
+btnSalvar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroEstado.btnExcluir">
+	<summary>
+btnExcluir control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroEstado.btnCancelar">
+	<summary>
+btnCancelar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroEstado.btnNovo">
+	<summary>
+btnNovo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroEstado.gvEstado">
+	<summary>
+gvEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebImoveis.CadastroEstado.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:WebImoveis.Configuracao.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Configuracao.txtEmailSenha">
+	<summary>
+txtEmailSenha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Configuracao.txtSmtpHost">
+	<summary>
+txtSmtpHost control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Configuracao.txtSmtpPorta">
+	<summary>
+txtSmtpPorta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Configuracao.txtTitulo">
+	<summary>
+txtTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Configuracao.btnSalvar">
+	<summary>
+btnSalvar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebImoveis.Configuracao.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:WebImoveis.Fechamentos.txtDataFechamentoDe">
+	<summary>
+txtDataFechamentoDe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Fechamentos.CalendarExtender2">
+	<summary>
+CalendarExtender2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Fechamentos.txtDataFechamentoAte">
+	<summary>
+txtDataFechamentoAte control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Fechamentos.CalendarExtender1">
+	<summary>
+CalendarExtender1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Fechamentos.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Fechamentos.divTotalRegistro">
+	<summary>
+divTotalRegistro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Fechamentos.lblTotalRegistro">
+	<summary>
+lblTotalRegistro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Fechamentos.dtgImovel">
+	<summary>
+dtgImovel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebImoveis.Fechamentos.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:WebImoveis.CadastroTipoImovel.mtPrincipal">
+	<summary>
+mtPrincipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroTipoImovel.vwConsulta">
+	<summary>
+vwConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroTipoImovel.gvTipoImovel">
+	<summary>
+gvTipoImovel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroTipoImovel.btnNovo">
+	<summary>
+btnNovo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroTipoImovel.vwEdicao">
+	<summary>
+vwEdicao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroTipoImovel.txtId">
+	<summary>
+txtId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroTipoImovel.txtDescricao">
+	<summary>
+txtDescricao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroTipoImovel.rfvtxtDescricao">
+	<summary>
+rfvtxtDescricao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroTipoImovel.btnSalvar">
+	<summary>
+btnSalvar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroTipoImovel.btnExcluir">
+	<summary>
+btnExcluir control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroTipoImovel.btnCancelar">
+	<summary>
+btnCancelar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebImoveis.CadastroTipoImovel.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:WebImoveis.Admin.ContentPlaceHolder2">
+	<summary>
+ContentPlaceHolder2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Admin.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Admin.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Admin.pagesimg">
+	<summary>
+pagesimg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Admin.UpdateProgress1">
+	<summary>
+UpdateProgress1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Admin.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Admin.ContentPlaceHolder3">
+	<summary>
+ContentPlaceHolder3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis._Default1.lblImoveisPublicados">
+	<summary>
+lblImoveisPublicados control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis._Default1.lblImoveisFechados">
+	<summary>
+lblImoveisFechados control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis._Default1.dtgMaisVisitados">
+	<summary>
+dtgMaisVisitados control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis._Default1.dtgBairros">
+	<summary>
+dtgBairros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis._Default1.gvTipoImoveis">
+	<summary>
+gvTipoImoveis control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis._Default1.gvEstatisticas">
+	<summary>
+gvEstatisticas control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebImoveis._Default1.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:WebImoveis.Login.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Login.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Login.pagesimg">
+	<summary>
+pagesimg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Login.UpdateProgress1">
+	<summary>
+UpdateProgress1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Login.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Login.divMensagemErro">
+	<summary>
+divMensagemErro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Login.txtLogin">
+	<summary>
+txtLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Login.txtSenha">
+	<summary>
+txtSenha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Login.btnEntrar">
+	<summary>
+btnEntrar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroBairro.mtPrincipal">
+	<summary>
+mtPrincipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroBairro.vwConsulta">
+	<summary>
+vwConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroBairro.ddlEstadoConsulta">
+	<summary>
+ddlEstadoConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroBairro.ddlCidadeConsulta">
+	<summary>
+ddlCidadeConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroBairro.gvBairro">
+	<summary>
+gvBairro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroBairro.btnNovo">
+	<summary>
+btnNovo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroBairro.vwEdicao">
+	<summary>
+vwEdicao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroBairro.txtId">
+	<summary>
+txtId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroBairro.ddlEstado">
+	<summary>
+ddlEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroBairro.ddlCidade">
+	<summary>
+ddlCidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroBairro.txtDescricao">
+	<summary>
+txtDescricao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroBairro.rfvtxtDescricao">
+	<summary>
+rfvtxtDescricao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroBairro.btnSalvar">
+	<summary>
+btnSalvar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroBairro.btnExcluir">
+	<summary>
+btnExcluir control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroBairro.btnCancelar">
+	<summary>
+btnCancelar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebImoveis.CadastroBairro.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:WebImoveis.MeusImoveis.divTotalRegistro">
+	<summary>
+divTotalRegistro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.MeusImoveis.lblTotalRegistro">
+	<summary>
+lblTotalRegistro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.MeusImoveis.dtgImovel">
+	<summary>
+dtgImovel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebImoveis.MeusImoveis.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="P:WebImoveis.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WebImoveis.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:WebImoveis.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:WebImoveis.CadastroCliente.mtPrincipal">
+	<summary>
+mtPrincipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.vwConsulta">
+	<summary>
+vwConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.divTotalRegistro">
+	<summary>
+divTotalRegistro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.lblTotalRegistro">
+	<summary>
+lblTotalRegistro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.gvCliente">
+	<summary>
+gvCliente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.btnNovo">
+	<summary>
+btnNovo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.vwEdicao">
+	<summary>
+vwEdicao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.txtId">
+	<summary>
+txtId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.txtNome">
+	<summary>
+txtNome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.rfvtxtNome">
+	<summary>
+rfvtxtNome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.txtSobrenome">
+	<summary>
+txtSobrenome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.txtCpfCnpj">
+	<summary>
+txtCpfCnpj control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.txtTelefoneResidencial">
+	<summary>
+txtTelefoneResidencial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.txtTelefoneComercial">
+	<summary>
+txtTelefoneComercial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.txtTelefoneCelular">
+	<summary>
+txtTelefoneCelular control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.txtObservacoes">
+	<summary>
+txtObservacoes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.btnSalvar">
+	<summary>
+btnSalvar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.btnExcluir">
+	<summary>
+btnExcluir control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroCliente.btnCancelar">
+	<summary>
+btnCancelar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebImoveis.CadastroCliente.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.mtwImovel">
+	<summary>
+mtwImovel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.vwCadastro">
+	<summary>
+vwCadastro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.txtId">
+	<summary>
+txtId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.txtReferencia">
+	<summary>
+txtReferencia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.ddlTipoNegocio">
+	<summary>
+ddlTipoNegocio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.ddlEstado">
+	<summary>
+ddlEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.ddlCidade">
+	<summary>
+ddlCidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.ddlBairro">
+	<summary>
+ddlBairro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.txtEnderenco">
+	<summary>
+txtEnderenco control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.ddlTipoImovel">
+	<summary>
+ddlTipoImovel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.ddlTipoMaterial">
+	<summary>
+ddlTipoMaterial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.txtValor">
+	<summary>
+txtValor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.txtValorCondominio">
+	<summary>
+txtValorCondominio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.txtAreaConstruida">
+	<summary>
+txtAreaConstruida control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.txtAreaTerreno">
+	<summary>
+txtAreaTerreno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.txtQtdeDormitorio">
+	<summary>
+txtQtdeDormitorio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.txtQtdeSuite">
+	<summary>
+txtQtdeSuite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.txtQtdeBanheiro">
+	<summary>
+txtQtdeBanheiro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.txtQtdeSala">
+	<summary>
+txtQtdeSala control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.txtQtdeGaragem">
+	<summary>
+txtQtdeGaragem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InCozinha">
+	<summary>
+InCozinha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InCopa">
+	<summary>
+InCopa control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InPiscina">
+	<summary>
+InPiscina control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InAreaServico">
+	<summary>
+InAreaServico control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InDependenciaEmpregada">
+	<summary>
+InDependenciaEmpregada control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InChurrasqueira">
+	<summary>
+InChurrasqueira control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InCloset">
+	<summary>
+InCloset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InAdega">
+	<summary>
+InAdega control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InAreaFesta">
+	<summary>
+InAreaFesta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InAreaJogos">
+	<summary>
+InAreaJogos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InLareira">
+	<summary>
+InLareira control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InSacada">
+	<summary>
+InSacada control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InEscritorio">
+	<summary>
+InEscritorio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InGasCentral">
+	<summary>
+InGasCentral control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InPortaoEletronico">
+	<summary>
+InPortaoEletronico control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InMobiliado">
+	<summary>
+InMobiliado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InLancamento">
+	<summary>
+InLancamento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InCobertura">
+	<summary>
+InCobertura control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InPronto">
+	<summary>
+InPronto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InPorteiroEletronico">
+	<summary>
+InPorteiroEletronico control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InLavabo">
+	<summary>
+InLavabo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InTerraco">
+	<summary>
+InTerraco control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.txtDescricao">
+	<summary>
+txtDescricao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.txtCondicaoVenda">
+	<summary>
+txtCondicaoVenda control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InDestaque">
+	<summary>
+InDestaque control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.InPublicar">
+	<summary>
+InPublicar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.txtDataFechamento">
+	<summary>
+txtDataFechamento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.CalendarExtender1">
+	<summary>
+CalendarExtender1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.btnGravar">
+	<summary>
+btnGravar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.btnLimpar">
+	<summary>
+btnLimpar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.btnExcluir">
+	<summary>
+btnExcluir control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.vwFotos">
+	<summary>
+vwFotos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.uplFoto">
+	<summary>
+uplFoto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.btnEnviarFoto">
+	<summary>
+btnEnviarFoto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.btnExcluirFotos">
+	<summary>
+btnExcluirFotos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.dtgFotos">
+	<summary>
+dtgFotos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.btnFinalizarFotos">
+	<summary>
+btnFinalizarFotos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.vwFinalizacao">
+	<summary>
+vwFinalizacao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.lblImovelId">
+	<summary>
+lblImovelId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroImovel.btnNovoCadastro">
+	<summary>
+btnNovoCadastro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebImoveis.CadastroImovel.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.mtPrincipal">
+	<summary>
+mtPrincipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.vwConsulta">
+	<summary>
+vwConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.divTotalRegistro">
+	<summary>
+divTotalRegistro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.lblTotalRegistro">
+	<summary>
+lblTotalRegistro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.gvUsuario">
+	<summary>
+gvUsuario control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.btnNovo">
+	<summary>
+btnNovo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.vwEdicao">
+	<summary>
+vwEdicao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.txtId">
+	<summary>
+txtId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.txtLogin">
+	<summary>
+txtLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.rfvtxtLogin">
+	<summary>
+rfvtxtLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.txtNome">
+	<summary>
+txtNome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.txtSenha">
+	<summary>
+txtSenha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.txtSenhaRepetirSenha">
+	<summary>
+txtSenhaRepetirSenha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.btnSalvar">
+	<summary>
+btnSalvar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.btnExcluir">
+	<summary>
+btnExcluir control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.CadastroUsuario.btnCancelar">
+	<summary>
+btnCancelar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebImoveis.CadastroUsuario.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:WebImoveis._Default.ltrConteudoDestaques">
+	<summary>
+ltrConteudoDestaques control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebImoveis._Default.Master">
+	<summary>
+Master property.
+</summary>
+	<remarks>
+Auto-generated property.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblReferencia">
+	<summary>
+lblReferencia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblTipoImovel">
+	<summary>
+lblTipoImovel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblValor">
+	<summary>
+lblValor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblCidade">
+	<summary>
+lblCidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblBairro">
+	<summary>
+lblBairro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblAreaConstruidaDescricao">
+	<summary>
+lblAreaConstruidaDescricao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblAreaConstruida">
+	<summary>
+lblAreaConstruida control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lnkMarcarImovel">
+	<summary>
+lnkMarcarImovel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lnkDermarcarImovel">
+	<summary>
+lnkDermarcarImovel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblTipoNegocio">
+	<summary>
+lblTipoNegocio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.divTipoMaterial">
+	<summary>
+divTipoMaterial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblTipoMaterial">
+	<summary>
+lblTipoMaterial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.divValorCondominio">
+	<summary>
+divValorCondominio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblValorCondominio">
+	<summary>
+lblValorCondominio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblAreaTerreno">
+	<summary>
+lblAreaTerreno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblEndereco">
+	<summary>
+lblEndereco control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.divDormSalaBanh">
+	<summary>
+divDormSalaBanh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblQtdeDormitorio">
+	<summary>
+lblQtdeDormitorio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblQtdeSuite">
+	<summary>
+lblQtdeSuite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblQtdeSala">
+	<summary>
+lblQtdeSala control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblQtdeBanheiro">
+	<summary>
+lblQtdeBanheiro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblQtdeGaragem">
+	<summary>
+lblQtdeGaragem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.ltrListaPossui">
+	<summary>
+ltrListaPossui control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.divDescricao">
+	<summary>
+divDescricao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblDescricao">
+	<summary>
+lblDescricao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.divCondicaoVenda">
+	<summary>
+divCondicaoVenda control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.lblCondicaoVenda">
+	<summary>
+lblCondicaoVenda control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.ltrGaleriaFotos">
+	<summary>
+ltrGaleriaFotos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.txtNome">
+	<summary>
+txtNome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.rfvNome">
+	<summary>
+rfvNome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.RegularExpressionValidator1">
+	<summary>
+RegularExpressionValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.txtContato">
+	<summary>
+txtContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.RequiredFieldValidator2">
+	<summary>
+RequiredFieldValidator2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.txtAssunto">
+	<summary>
+txtAssunto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.RequiredFieldValidator3">
+	<summary>
+RequiredFieldValidator3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.txtMensagem">
+	<summary>
+txtMensagem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.RequiredFieldValidator4">
+	<summary>
+RequiredFieldValidator4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.btnEnviar">
+	<summary>
+btnEnviar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.ltrFacebook">
+	<summary>
+ltrFacebook control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.VisualizarImovel.ltrOrkut">
+	<summary>
+ltrOrkut control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Site.ContentPlaceHolder2">
+	<summary>
+ContentPlaceHolder2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Site.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Site.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Site.pagesimg">
+	<summary>
+pagesimg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Site.UpdateProgress1">
+	<summary>
+UpdateProgress1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Site.txtReferencia">
+	<summary>
+txtReferencia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Site.ddlTipoImovel">
+	<summary>
+ddlTipoImovel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Site.txtValorDe">
+	<summary>
+txtValorDe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Site.txtValorAte">
+	<summary>
+txtValorAte control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Site.ddlCidade">
+	<summary>
+ddlCidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Site.btnBuscar">
+	<summary>
+btnBuscar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Site.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebImoveis.Site.ContentPlaceHolder3">
+	<summary>
+ContentPlaceHolder3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

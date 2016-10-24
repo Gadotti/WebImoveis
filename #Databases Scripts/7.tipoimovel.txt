@@ -1,0 +1,9 @@
+delimiter $$
+
+CREATE TABLE `tipoimovel` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `Descricao` varchar(45) NOT NULL,
+  `QtdePesquisa` int(11) DEFAULT '0',
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1$$
+

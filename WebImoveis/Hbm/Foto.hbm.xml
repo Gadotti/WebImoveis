@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-lazy="false">
+  <class name="DataAccess.DataAccess.Foto, DataAccess" table="foto">
+    <id name="Id" column="Id" type="Int32">
+      <generator class="identity" />
+    </id>
+    <property name="ImovelId" column="ImovelId" type="Int32" length="11" />
+    <property name="Sequencia" column="Sequencia" type="Int32" length="11" />
+    <property name="NomeArquivo" column="NomeArquivo" type="String" length="100" />
+    <property name="Descricao" column="Descricao" type="String" length="255" />
+  </class>
+</hibernate-mapping>
